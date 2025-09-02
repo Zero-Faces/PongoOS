@@ -20,7 +20,7 @@ A pre-boot execution environment for Apple boards built on top of checkra1n.
     ```
   - On other Linux flavours you'll likely have to build them yourself. Maybe [this repo](https://github.com/Siguza/ld64) will help you.
 - Run `make all`
-
+*** KEY NOTE AFTER INSTALLING ALL OF THESE YOU WILL NOT GET THE 4 BINARIES AT THE END. THE ORIGINAL CODER TOOK SOME KEY PARTS OUT SO NO ONE CAN CREATE THEM. BUT i KNOW WHERE TO DOWNLOAD THEM. jUST MESSAGE ME AND ILL LET YOU KNOW WHERE. BUT U STILL NEED TO COMPILE THIS CODE AND THAN DOWNLOAD THOSE BINARIES I GOT THIS TO WORK ON A ipad 9 BOOTED TO pANGO os AND EVERYTHING. beST OF LUCK
 If `clang`, `ld64` or `cctools-strip` don't have their default names/paths, you'll want to change their invocation. For reference, the default variables are equivalent to:
 
     EMBEDDED_CC=clang EMBEDDED_LDFLAGS=-fuse-ld=/usr/bin/ld64 STRIP=cctools-strip make all
